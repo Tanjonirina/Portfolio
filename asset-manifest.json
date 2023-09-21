@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5b343dd9.css",
+    "main.js": "/static/js/main.3789bbce.js",
+    "static/media/tanjona .png": "/static/media/tanjona .45e08df7f9aac739653a.png",
+    "static/media/grh.png": "/static/media/grh.e71a86297278e5a565f2.png",
+    "static/media/tailwind.png": "/static/media/tailwind.fdec46372df17366cc1c.png",
+    "static/media/pngwing.com (3).png": "/static/media/pngwing.com (3).d8b377f05522bf35de36.png",
+    "static/media/pngwing.com (1).png": "/static/media/pngwing.com (1).fb627e76c05a9a6c7444.png",
+    "static/media/pngwing.com (2).png": "/static/media/pngwing.com (2).ea63097553654f07d95c.png",
+    "static/media/blog.png": "/static/media/blog.2d55de17fa9de4ee8f7a.png",
+    "static/media/vocal.png": "/static/media/vocal.6c2654bebf290b173bac.png",
+    "static/media/bootstrap-plain-wordmark.svg": "/static/media/bootstrap-plain-wordmark.5ebb85a4c5b9140dd766c64a38edcf9f.svg",
+    "static/media/laravel.svg": "/static/media/laravel.610267b02a415f7993f2bcb6f3332250.svg",
+    "static/media/javascript-js.svg": "/static/media/javascript-js.63b93412a24001eff2acc22e0cb40276.svg",
+    "static/media/github.svg": "/static/media/github.cf3c708621b7a00e1d3c9e9782f1fc98.svg",
+    "index.html": "/index.html",
+    "static/media/react.svg": "/static/media/react.b946632138100ea159504d065878af79.svg",
+    "main.5b343dd9.css.map": "/static/css/main.5b343dd9.css.map",
+    "main.3789bbce.js.map": "/static/js/main.3789bbce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b343dd9.css",
+    "static/js/main.3789bbce.js"
+  ]
+}
