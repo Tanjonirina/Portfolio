@@ -27,35 +27,32 @@ export default function Project() {
 
   ]
   return (
-    <div name="Project" className='w-full h-screen bg-gradient-to-b from-black to-gray-700 text-white'>
-      <div id='Projecte' className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full h-screen'>
-      <div className='pb-8'>
-      <p className='text-4xl font-bold inline border-b-4 border-gray-500 p-2 '>Projet</p>
-      <p className='py-6'>Découvrez mes réalisations variées et innovantes, témoignant de ma passion pour le développement web et la créativité numérique.</p>
-      </div>
-      <div  className=' w-full grid grid-cols-2 sm:grid-cols-3 gap-8 px-12 sm:px-0'>
-                {
-                  Project.map(({id, src ,name, href})=>{
-                    return(
-                    
-                              <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                                <img src={src} className='rounded-md duration-200 hover:scale-105' ></img>
-                                <h1 className='text-orange-300 shadow-red-600 font-bold mt-4 text-center'>{name}</h1>
-                                <div className='flex items-center justify-center'>
-                                <a href={href} className='w-1/2 mt-3 hover:text-orange-600  text-center  duration-200 hover:scale-105'>Code</a>
+    <div name="Project" className='w-full min-h-screen bg-gradient-to-b from-black to-gray-700 text-white'>
+      <div id='Projecte' className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
+        <div className='pb-8'>
+          <p className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold inline border-b-4 border-gray-500 p-2'>
+            Projet
+          </p>
+          <p className='py-6'>
+            Découvrez mes réalisations variées et innovantes, témoignant de ma passion pour le développement web et la créativité numérique.
+          </p>
+        </div>
 
-                                </div>
-                            
-                              </div>
-              
-
-                    )
-
-                  })
-                }
-         </div>
-
-      
+        <div className='w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4 sm:px-0'>
+          {Project.map(({ id, src, name, href }) => {
+            return (
+              <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+                <img src={src} className='rounded-md duration-200 hover:scale-105' alt={name} />
+                <h1 className='text-orange-300 shadow-red-600 font-bold mt-4 text-center'>{name}</h1>
+                <div className='flex items-center justify-center'>
+                  <a href={href} className='w-1/2 mt-3 hover:text-orange-600 text-center duration-200 hover:scale-105'>
+                    Code
+                  </a>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   )
