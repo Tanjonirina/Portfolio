@@ -8,17 +8,20 @@ export default function Project() {
     {
       id:1,
       name: "Gestion personnel ",
+      href:"https://github.com/Tanjonirina/laravel",
       src: Sary
     },
     {
       id:2,
       name: "text convertir en vocal",
+      href:"https://github.com/Tanjonirina/Javascript-vocal",
       src: Laravel
     
     },
     {
       id:3,
       name: "blog",
+      href:"https://github.com/Tanjonirina/Blog-",
       src: Ecol
     }
 
@@ -32,15 +35,14 @@ export default function Project() {
       </div>
       <div  className=' w-full grid grid-cols-2 sm:grid-cols-3 gap-8 px-12 sm:px-0'>
                 {
-                  Project.map(({id, src ,name})=>{
+                  Project.map(({id, src ,name, href})=>{
                     return(
                     
                               <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                                 <img src={src} className='rounded-md duration-200 hover:scale-105' ></img>
                                 <h1 className='text-orange-300 shadow-red-600 font-bold mt-4 text-center'>{name}</h1>
                                 <div className='flex items-center justify-center'>
-                                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Dem</button>
-                                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                                <a href={href} className='w-1/2 mt-3 hover:text-orange-600  text-center  duration-200 hover:scale-105'>Code</a>
 
                                 </div>
                             

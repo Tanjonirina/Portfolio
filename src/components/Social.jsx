@@ -33,7 +33,7 @@ const social= () =>{
             Email  <HiOutlineMail size={30}/>  
           </>
         ),
-        href:'https://mail.google.com/mail/u/0/#inbox/FMfcgzGtxKRbBJFHhlmwhkbcgNsLQBKh',
+        href:'mailto:tanjonirinaramanajanahary24@gmail.com',
         style: 'rounded-tr-md'
     },
     {
@@ -43,7 +43,7 @@ const social= () =>{
           Contact  <BsFillPersonLinesFill size={30}/>  
         </>
       ),
-      href:'0345298814',
+      href:'tel:+261345298814',
       style: 'rounded-tr-md'
   },
     ]

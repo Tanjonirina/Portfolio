@@ -18,11 +18,13 @@ function Homme() {
 
       <div className='flex-1 '>
         <div>
-           <h1 className='md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold'>
-             <span>
-                Bonjour!
-                <br/>
+           <h1 className='md:text-4xl text-2xl md:leading-normal leading-10 text-white font-bold '>
+             <span className='text-emerald-400'>
+             Bienvenue 
              </span>
+                <br/>
+                dans mon univers créatif et professionnel !
+             
              Tanjonirina <span className='text-orange-400'>Ramananjanahary</span> 
            </h1>
            <h4 className='md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-blue-200 '>Développeur laravel</h4>
