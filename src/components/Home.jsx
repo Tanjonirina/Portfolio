@@ -15,7 +15,7 @@ function Homme() {
       </div>
 
       <div className='w-full sm:w-1/2 text-center sm:text-left px-4'>
-        <h1 className='text-xl sm:text-4xl leading-tight font-bold text-emerald-400 mt-4'>
+        <h1 className='text-2xl sm:text-4xl leading-tight font-bold text-emerald-400 mt-4'>
           Bienvenue<br/> <span className='text-white'>dans mon univers créatif et professionnel !</span>
           <br />
           <span className='text-gray-200'>Tanjonirina</span> <span className='text-gray-300'>Ramananjanahary</span>
