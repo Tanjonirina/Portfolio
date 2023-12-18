@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
+
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Social from './components/Social';
-import '../src/assets/css/custom/style.css';
+
 import About from './components/About';
 import Project from './components/Project';
 import Experience from './components/Experience';
@@ -21,8 +21,6 @@ function App() {
      <Experience/>
      <Footeur/>
      <Social/>
-     
-
     </div>
   );
 }

@@ -8,7 +8,7 @@ const Navbar = () => {
   const menuLinks = [
     {name:"HOME", link : "#home"},
     {name:"Apropos", link : "#about"},
-    {name:"Project", link : "#Projecte"},
+    {name:"Projet", link : "#Projecte"},
     {name:"compétences", link : "#competence"},
     {name:"Contact", link : "#contact"},
   ];
